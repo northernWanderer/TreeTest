@@ -1,0 +1,12 @@
+﻿<Window x:Class="TreeTest.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://prismlibrary.com/"
+        xmlns:vm="clr-namespace:TreeTest.ViewModels"
+        Height="350"
+        Width="525"
+        x:Name="root">
+    <Grid>       
+        <ContentControl prism:RegionManager.RegionName="SearchRegion" />       
+    </Grid>
+</Window>
